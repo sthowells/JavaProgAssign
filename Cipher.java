@@ -54,9 +54,6 @@ public class Cipher {
             System.exit(0);
         }
 
-        // close scanner    
-        System.out.println();
-        sc.close();
 
         // step 2
         // sum of the five user input numbers
@@ -86,6 +83,10 @@ public class Cipher {
         String encoded2 = String.valueOf(encNum2);
         String encodedNum = encoded1 + encoded2;
         System.out.println("Your encoded number is  " + encodedNum);
+        
+        // close scanner    
+        System.out.println();
+        sc.close();
     }
 }
 
